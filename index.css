@@ -27,7 +27,7 @@ font-style: normal;
   }
 
  /* IPHONE SCREEN CSS  */
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
     
     .phone-container {
         display: block;
@@ -35,4 +35,4 @@ font-style: normal;
     .monitor-container {
     display: none;
     }
-}
+} */
