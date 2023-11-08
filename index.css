@@ -1,0 +1,38 @@
+/* GlOBAL CSS */
+
+body{
+    background-color: #FF2070;;
+}
+
+.title {
+font-family: "fatfrank", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ /* MONITOR SCREEN CSS  */
+@media only screen and (min-device-width: 401px) {
+    .phone-container {
+      display: none;
+    }
+    .monitor-container {
+      display: block;
+    }
+  }
+
+ /* IPHONE SCREEN CSS  */
+@media screen and (max-width:400px) {
+    
+    .phone-container {
+        display: block;
+      }
+    .monitor-container {
+    display: none;
+    }
+}
