@@ -6,14 +6,37 @@ body{
 
 .title {
 font-family: "fatfrank", sans-serif;
+font-size: 30px;
 font-weight: 400;
 font-style: normal;
+color: #FF2070;
 }
 
 .text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.whatsapp-button {
+  padding: 10 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 6.647px;
+  background-color: #5CB453;
+  position: absolute; 
+  bottom: -100px;
+  right: -50px;
+  border-radius: 57.606px;
+
+  
+
+  font-family: "fatfrank", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  color: #F3EDE5;
+  
 }
 
  /* MONITOR SCREEN CSS  */
@@ -28,11 +51,22 @@ font-style: normal;
 
  /* IPHONE SCREEN CSS  */
 @media screen and (max-width:400px) {
-    
     .phone-container {
         display: block;
       }
     .monitor-container {
     display: none;
+    }
+
+    .navbar {
+      height: 135px;
+      background-color: #F3EDE5;
+    }
+    .col {
+      flex: inherit
+    }
+    .socialIcon {
+      text-decoration: none;
+      color: #F3EDE5;
     }
 }
