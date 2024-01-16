@@ -1,7 +1,7 @@
 /* GlOBAL CSS */
 
 body{
-    background-color: #FF2070;;
+    background-color: #F3EDE5;;
 }
 
 .title {
@@ -52,7 +52,7 @@ color: #FF2070;
 
 @keyframes fade-up {
   100% {
-      bottom: 24px;
+      bottom: 150px;
       opacity: 1;
   }
 }
