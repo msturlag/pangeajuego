@@ -46,6 +46,7 @@ color: #FF2070;
   bottom: -50px;
   animation: fade-up 1000ms forwards;
   animation-delay: 1000ms;
+  margin-bottom: 10px;
 }
 
 @keyframes fade-up {
