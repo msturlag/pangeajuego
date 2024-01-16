@@ -39,6 +39,24 @@ color: #FF2070;
   
 }
 
+.whatsapp-btn-container {
+  position: fixed;
+  right: 30px;
+  opacity: 0;
+  bottom: -50px;
+  padding: 24px;
+  animation: fade-up 1000ms forwards;
+  animation-delay: 1000ms;
+  margin-bottom: 20px;
+}
+
+@keyframes fade-up {
+  100% {
+      bottom: 24px;
+      opacity: 1;
+  }
+}
+
  /* MONITOR SCREEN CSS  */
 @media only screen and (min-device-width: 401px) {
     .phone-container {
@@ -75,3 +93,4 @@ color: #FF2070;
       color: #F3EDE5;
     }
 }
+
