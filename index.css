@@ -47,6 +47,7 @@ color: #FF2070;
   animation: fade-up 1000ms forwards;
   animation-delay: 1000ms;
   margin-bottom: 10px;
+
 }
 
 @keyframes fade-up {
@@ -56,7 +57,15 @@ color: #FF2070;
   }
 }
 
- /* MONITOR SCREEN CSS  */
+.socialIcon {
+  text-decoration: none;
+  color: #F3EDE5;
+}
+
+
+
+ /* ------------------- MONITOR SCREEN CSS ---------------------------------------------------  */
+ 
 @media only screen and (min-device-width: 433px) {
     .phone-container {
       display: none;
@@ -64,10 +73,28 @@ color: #FF2070;
     }
     .monitor-container {
       display: block;
+      background-color:#FF2070;
     }
+
+    .navbar {
+      height: 135px;
+      width: auto;
+      max-width: 100vw;
+      background-color: #F3EDE5;
+      /* border: 5px solid #FF2070; */
+    }
+   
+    .teaser-desktop {
+      /* max-height: 30vh; */
+      margin-top: 135px
+    }
+
+
   }
 
- /* IPHONE SCREEN CSS  */
+
+
+ /* --------------------- IPHONE SCREEN CSS --------------------------------------------------- */
 @media screen and (max-width:432px) {
     .phone-container {
         display: block;
@@ -84,12 +111,9 @@ color: #FF2070;
       max-width: 100vw;
       background-color: #F3EDE5;
     }
+
     .col {
       flex: inherit
-    }
-    .socialIcon {
-      text-decoration: none;
-      color: #F3EDE5;
     }
 }
 
