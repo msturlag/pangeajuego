@@ -85,7 +85,9 @@ color: #F3EDE5;
    
     .teaser-desktop {
       /* max-height: 30vh; */
-      margin-top: 135px
+      margin-top: 135px;
+      padding-top: 20px;
+
     }
 
 
