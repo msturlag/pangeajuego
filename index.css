@@ -29,15 +29,18 @@ color: #F3EDE5;
   right: -50px;
   border-radius: 57.606px;
 
-  
-
   font-family: "fatfrank", sans-serif;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
   color: #F3EDE5;
-  
 }
+
+.whatsapp-button:hover {
+  background-color: #139604;
+
+}
+
 
 .whatsapp-btn-container {
   position: fixed;
